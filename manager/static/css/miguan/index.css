@@ -1,0 +1,270 @@
+
+
+/*浮动导航栏修饰区域*/
+.float_nav {
+	width: 100%;
+	position: fixed;
+	z-index: 99;
+	border: solid 1px #333;
+	background-image: url(../../img/bg.jpg);
+	background-repeat: no-repeat;
+}
+
+.float_nav li {
+	line-height: 60px;
+	margin: 0 20px;
+}
+
+.float_nav .but {
+	float: right;
+	margin: 0px 20px;
+}
+
+.float_nav #search {
+	width: 80px;
+}
+.photo{
+	height: 200px;
+	background-color: #8A428B;
+}
+
+/*顶部导航位置的修饰*/
+
+.header {
+	background-image: url(../../img/bg.jpg);
+	background-repeat: no-repeat;
+overflow:hidden;
+}
+
+.header img {
+	float: left;
+	margin-top: 60px;
+}
+.header .right_shop {
+	float: right;
+	margin-top: 60px;
+}
+.header .right_shop li{
+	margin: 0 10px;
+}
+
+.nav{
+	width: 600px;
+	float: right;
+	border: 2px solid #ccc;
+	margin-right: 0;
+}
+.nav .bg_nav{
+	background-image: url(../../img/bg.jpg);
+}
+.nav li{
+	line-height: 60px;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 24px;
+	float: left;
+}
+
+.share {
+	margin-left: 47px;
+	float: left;
+	margin-top: 130px;
+	margin-bottom: 150px;
+}
+
+.share .left01,.left02,.left03,.left04 {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 0 18px;
+	border-radius: 20px;
+	position: relative;
+}
+
+.share .click{
+	border: #262626 2px solid;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	position: absolute;
+	top: 40px;
+	left: -40px;
+}
+
+.share .left01 {
+	background-image: url(../../img/share.png);
+	background-repeat: no-repeat;
+	background-position:-1px -44px;
+}
+
+.share .left01:hover {
+	background-image: url(../../img/share.png);
+	background-repeat: no-repeat;
+	background-position: -1px 0;
+}
+
+.share .left02 {
+	background-image: url(../../img/share.png);
+	background-repeat: no-repeat;
+	background-position: -41px -44px;
+}
+
+.share .left02:hover {
+	background-image: url(../../img/share.png);
+	background-repeat: no-repeat;
+	background-position: -41px 0px;
+}
+
+.share .left03 {
+	background-image: url(../../img/share.png);
+	background-repeat: no-repeat;
+	background-position: -81px -44px;
+}
+
+.share .left03:hover {
+	background-image: url(../../img/share.png);
+	background-repeat: no-repeat;
+	background-position: -81px 0px;
+}
+
+.share .left04 {
+	background-image: url(../../img/share.png);
+	background-repeat: no-repeat;
+	background-position: -121px -44px;
+}
+
+.share .left04:hover {
+	background-image: url(../../img/share.png);
+	background-repeat: no-repeat;
+	background-position: -121px 0px;
+}
+/*资料分享专区*/
+.content{
+	background-color: #F2F2F2;
+	margin: 50px auto;
+}
+.content img{
+	margin: 0 auto;
+}
+.content .show01 {
+	width: 800px;
+	margin: 30px auto;
+}
+.content .show01_left{
+	width: 100px;
+	float: left;
+	background-color: #999999;
+}
+.content .show01_left dt{
+	font-family: "宋体";
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 68px;
+	border-bottom: #FFFFFF 2px solid;
+	text-align: center;
+}
+.content .show01_left dd{
+	line-height: 30px;
+	text-align: center;
+}
+.content .show01_right{
+	float: left;
+	padding-left: 30px;
+	margin-top: 20px;
+}
+.content .show01_right dt{
+	font-size: 18px;
+	line-height: 30px;
+}
+.content .show01_right dd{
+	font-size: 14px;
+	line-height: 30px;
+}
+.more{
+	width: 120px;
+	border: #999999 3px solid;
+	padding: 20px 30px;
+	margin: 30px auto;
+	text-align: center;
+}
+/*资料分享*/
+
+.content_box {
+	width: 1180px;
+	margin: 50px auto;
+	background-color: #F2F2F2;
+}
+.content_box img {
+	display: block;
+	margin: 0 auto;
+}
+.content01 {
+	width: 285px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+}
+
+.content01 .work01 {
+	width: 230px;
+	height: 230px;
+	border: 1px solid #333;
+	margin-left: : auto;
+	margin-right: auto;
+	position: relative;
+	left: 27px;
+}
+
+.work01_zan {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	width: 100%;
+}
+
+.work01_zan span,
+.work01_zan a {
+	display: block;
+}
+
+.work01_zan span {
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 18px;
+	width: 99%;
+	border-bottom: 1px solid #333;
+}
+
+.work01_zan a {
+	float: left;
+	margin-left: 20px;
+	margin-right: 60px;
+}
+
+.content_box .bgline {
+	margin-top: 30px;
+	height: 100px;
+	background-color: #cccccc;
+}
+/*关于我们*/
+.about_us {
+	width: 1200px;
+	margin: 50px auto;
+}
+
+.about_us img {
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.about_us p {
+	line-height: 28px;
+	text-indent: 2em;
+	margin-top: 20px;
+	width: 800px;
+	margin: 0 auto;
+	font-size: 14px;
+	text-align: center;
+}

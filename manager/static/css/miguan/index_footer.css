@@ -1,0 +1,58 @@
+
+.footer {
+	background: #cccccc;
+}
+
+.footer .footer_top {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.footer .left {
+	float: left;
+}
+
+.footer .blog {
+	line-height: 24px;
+	padding-left: 30px;
+	background-image: url(../../img/blog.png);
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+	margin-left: 24px;
+}
+.footer_top_second .link01 {
+	width: 600px;
+	height: 30px;
+	margin-left: 40px;
+}
+.footer .link01 a:hover{
+	border-bottom: 2px solid #c72525;
+	color: #b10000;
+}
+.footer li{
+	line-height: 50px;
+	font-size: 14px;
+	margin: 0 24px;
+	float: left;
+}
+
+.footer .right {
+	float: right;
+	margin-right: 90px;
+}
+
+.right p {
+	text-align: center;
+}
+
+.footer_bottom {
+	border: 1px solid;
+	background: #333;
+	margin: auto;
+}
+
+.footer_bottom p {
+	line-height: 60px;
+	text-align: center;
+}

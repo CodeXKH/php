@@ -1,0 +1,100 @@
+/*选项卡修饰区域*/
+.content .option{
+	width: 800px;
+	margin: 30px 320px;
+}
+.content .option h2{
+	float: left;
+	width: 150px;
+	line-height: 50px;
+	border: #333333 2px solid;
+	border-radius: 10px;
+	margin: 0 15px;
+	text-align: center;
+}
+
+/*置顶内容修饰区域*/
+.content .bg_show{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #CCCCCC;
+	border-radius: 10px;
+}
+.content .show{
+	width: 800px;
+	margin: 0px auto;
+	padding: 10px 0px;
+}
+.content .show_left{
+	width: 70px;
+	float: left;
+	background-color: #999999;
+}
+.content .show_left dt{
+	font-family: "宋体";
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 38px;
+	border-bottom: #FFFFFF 2px solid;
+	text-align: center;
+}
+.content .show_left dd{
+	line-height: 20px;
+	text-align: center;
+}
+.content .show_right{
+	float: left;
+	padding-left: 30px;
+}
+.content .show_right dt{
+	font-size: 16px;
+	line-height: 30px;
+}
+.content .show_right dd{
+	font-size: 14px;
+	line-height: 30px;
+}
+/*普通内容修饰区*/
+.content .list dl {
+	width: 800px;
+	margin: 25px 200px;
+}
+
+.content .list dt a {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.content .list dd {
+	margin-top: 10px;
+	float: left;
+}
+
+.content .list dd a {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.content .list .right {
+	float: right;
+}
+
+.content ul {
+	margin: 25px auto;
+	width: 900px;
+}
+
+.content li {
+	width: 80px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 20%;
+	line-height: 25px;
+	background: #999999;
+	float: left;
+	text-align: center;
+}
+
+.content ul a {
+	font-size: 12px;
+}

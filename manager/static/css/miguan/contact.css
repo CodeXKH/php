@@ -1,0 +1,49 @@
+.content{
+	height: 720px;
+	background-image: url(../../img/contact.jpg);
+	background-repeat: no-repeat;
+	margin: 20px 0px;
+}
+.content .left{
+	float: left;
+	margin-top: 250px;
+	margin-left: 200px;
+}
+.content .left dl{
+	color: #FFFFFF;
+}
+.content .left dt{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "宋体";
+	color: #FFFFFF;
+}
+.content .left dd{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "宋体";
+	color: #FFFFFF;
+	line-height: 36px;
+}
+.content .right{
+	float: right;
+	margin-top: 200px;
+	margin-right: 200px;
+}
+.content .right dt{
+	font-size: 24px;
+	font-weight: bold;
+	font-family: "宋体";
+	color: #33333;
+	line-height: 60px;
+	background-color: #FFFFFF;
+}
+.content .right dd{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "宋体";
+	color: #333333;
+	line-height: 36px;
+	background-color: #FFFFFF;
+	margin: 20px 0px;
+}

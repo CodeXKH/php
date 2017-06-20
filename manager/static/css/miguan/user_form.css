@@ -1,0 +1,88 @@
+.title_box {
+	padding: 5px 50px;
+	border-bottom: 2px #333333 solid;
+}
+
+.title_box .bread-left {
+	float: left;
+	line-height: 60px;
+	font-size: 24px;
+	font-family: "宋体";
+}
+
+.title_box .bread-right {
+	float: right;
+	line-height: 60px;
+}
+
+.content {
+	padding-left: 100px;
+	overflow: hidden;
+	margin: 100px 0px;
+}
+
+.content p {
+	padding-bottom: 15px;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.content label {
+	float: left;
+	font-size: 14px;
+	padding-right: 15px;
+	padding-top: 9px;
+	text-align: right;
+	width: 137px;
+}
+
+.content p input.user_input {
+	-moz-transition-duration: 0.5s;
+	-moz-transition-property: all;
+	border-color: #CCCCCC #DDDDDD #DDDDDD #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-style: solid;
+	border-width: 1px;
+	float: left;
+	font-size: 12px;
+	height: 30px;
+	padding: 0 8px;
+	overflow: hidden;
+	width: 245px;
+}
+
+
+
+.content p img.user_verifycode {
+    border: 1px solid #DDDDDD;
+    height: 30px;
+    margin-left: 0;
+    vertical-align: middle;
+    width: 90px;
+}
+.content .user_p_verifycode {
+    float: left;
+    width: 270px;
+}
+.content .user_p_img_verifycode {
+    float: left;
+    overflow: hidden;
+	width:145px;
+}
+.content p span.user_change_verifycode {
+    color: #0000CC;
+    cursor: pointer;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.content input.user_submit {
+    clear: both;
+	display:block;
+    font-size: 14px;
+    height: 34px;
+    padding-bottom: 2px;
+    width: 109px;
+}

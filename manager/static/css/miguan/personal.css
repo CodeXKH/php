@@ -1,0 +1,63 @@
+.personal {
+	width: 1000px;
+	margin: 30px auto;
+}
+
+.content_file>div {
+	float: left;
+    margin: 4px 31px 4px 32px;
+}
+
+.personal .touxiang {
+	float: left;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-top: 50px;
+}
+
+.personal .right {
+	width: 860px;
+	float: right;
+	padding: 10px 20px;
+}
+
+.personal a {
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	float: right;
+	margin-top: 20px;
+}
+
+.personal a span {
+	width: 120px;
+	height: 40px;
+	border: #B10000 2px solid;
+	background-color: #AAAAAA;
+	color: #333333;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+
+.personal h3 {
+	font-size: 30px;
+	font-family: "宋体";
+	line-height: 30px;
+}
+
+.personal h4 {
+	font-size: 16px;
+	line-height: 50px;
+}
+
+.personal b {
+	font-size: 18px;
+	line-height: 30px;
+	padding: 10px;
+}
+
+.personal p {
+	font-size: 14px;
+	line-height: 30px;
+}
